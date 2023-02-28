@@ -6,14 +6,17 @@ require (
 	github.com/casbin/casbin v1.9.1
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
+	github.com/hashicorp/raft v1.3.6
+	github.com/hashicorp/raft-boltdb v0.0.0-00010101000000-000000000000
 	github.com/hashicorp/serf v0.9.7
+	github.com/soheilhy/cmux v0.1.5
 	github.com/stretchr/testify v1.8.1
 	github.com/travisjeffery/go-dynaport v1.0.0
 	github.com/tysonmote/gommap v0.0.2
 	go.opencensus.io v0.24.0
 	go.uber.org/zap v1.10.0
-	google.golang.org/genproto v0.0.0-20230117162540-28d6b9783ac4
-	google.golang.org/grpc v1.52.0
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
+	google.golang.org/grpc v1.46.0-dev
 	google.golang.org/protobuf v1.28.1
 )
 
@@ -32,10 +35,10 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/hashicorp/memberlist v0.3.0 // indirect
-	github.com/hashicorp/raft v1.3.6 // indirect
 	github.com/miekg/dns v1.1.41 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529 // indirect
+	go.etcd.io/bbolt v1.3.5 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	golang.org/x/net v0.5.0 // indirect
